@@ -17,7 +17,7 @@ access to the large language model (**LLM**) APIs and services.
     CallbackManager, AsyncCallbackManager,
     AIMessage, BaseMessage
 """  # noqa: E501
-
+from langchain_community.llms.sarvam import SarvamAI
 from typing import Any, Callable, Dict, Type
 
 from langchain_core._api.deprecation import warn_deprecated
